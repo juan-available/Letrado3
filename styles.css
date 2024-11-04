@@ -44,10 +44,6 @@ h1 {
   gap: 10px;
   justify-content: center;
 }
-/* No mostrar algunas ubicaciones, pero que igual se mantengan los lugares
-#cell-7, cell-9, cell-13, cell-17, cell-19 {
-  visibility: hidden;
-}
 
 .cell {
   display: flex;
@@ -58,6 +54,11 @@ h1 {
   font-size: 1.5em;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* No mostrar algunas ubicaciones, pero que igual se mantengan los lugares
+#cell-7, cell-9, cell-13, cell-17, cell-19 {
+  visibility: hidden;
 }
 
 /* Cambia el color de fondo al hacer clic */

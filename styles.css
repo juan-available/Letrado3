@@ -46,12 +46,15 @@ h1 {
 }
 
 .cell {
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #444;
-  color: #fff;
+  color: #777;
   font-size: 1.5em;
+  border: 2px color:#555
   border-radius: 5px;
   cursor: pointer;
 }

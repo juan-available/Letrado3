@@ -44,7 +44,8 @@ h1 {
   gap: 10px;
   justify-content: center;
 }
-
+.grilla{
+  display: grid;
 .cell {
   width: 40px;
   height: 40px;
